@@ -1,0 +1,18 @@
+# 测试产物
+__pycache__/
+*.py[cod]
+
+# 配置写入时的备份（由 -Enable / -Disable 产生）
+*.bak
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 临时
+*.tmp
+Thumbs.db
+
+# 本地打包产物（发布前把 ZIP 放到仓库外，避免被打进下一次压缩包）
+*.zip

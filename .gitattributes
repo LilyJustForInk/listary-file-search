@@ -1,0 +1,4 @@
+# 保持字节级一致：文档中引用的 SHA256（例如 scripts/listary.ps1 的
+# DEAEE30B…7798）对应的是 LF 换行的原始文件。关闭 Git 的自动换行转换，
+# 避免 Windows 用户用 core.autocrlf=true 克隆后，文件哈希与发布包不一致。
+* -text
