@@ -6,6 +6,14 @@
 
 **搜索与诊断全程只读、只走 `127.0.0.1`、不建索引、不改文件。** 只有 `-Enable` / `-Disable` 会写 Listary 配置并重启它，这两条默认不使用，且必须显式加 `-Apply` 并事先征得同意。适合「知道名字但不知道路径」的场景——先用索引找路径，再把路径交给别的工具读内容。
 
+### Disclaimer / 免责声明
+
+This is an unofficial community project. It is not affiliated with, endorsed by, or sponsored by Listary or Little Carved.
+
+This project does not distribute Listary software or proprietary assets. Users must install Listary separately and comply with its applicable license agreement.
+
+本项目为非官方社区工具，与 Listary 官方（Little Carved）不存在隶属、赞助或背书关系。本项目不分发 Listary 软件本体或专有资源。用户需自行安装 Listary，并遵守其适用的软件许可协议。
+
 | 状态 | |
 | --- | --- |
 | 维护状态 | 稳定维护（运行层自 2026-11-20 起未改动） |
